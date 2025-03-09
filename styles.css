@@ -25,7 +25,12 @@ header {
     align-items: center;
     padding: 20px 0;
 }
-
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
 
 
 nav ul {
@@ -142,5 +147,19 @@ section {
     .about-img {
         width: 100%;
         max-width: 300px;
+    }
+    .nav-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+    }
+
+    nav ul li {
+        margin: 10px 0;
     }
 }
